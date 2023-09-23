@@ -1,0 +1,119 @@
+                                                                                                                  MODERN HTML
+
+Q1.List out of the features of HTML5.
+ans:-  Some features are explained :
+
+1. Semantic Elements
+
+When constructing an HTML script, the term “semantic” refers to the meaning of the text. Semantics, to put it simply, is the use of HTML tags that accurately reflect the content they contain. For instance, using the <div> tag doesn’t suggest the content it will carry, however using the <p> tag suggests it can be used to hold paragraph information. 
+There are a lot of reasons why you should write Semantic tags instead of normal HTML tags, to leverage SEO, accessibility, and browser compatibility. 
+
+2. Audio and Video Support
+
+One of the many HTML 5 features is the support for audio and video. It has reduced the hassle of relying upon third-party services such as Adobe Flash player. To embed Audio and Video into your HTML document, you may use the following two tags, <audio> and <video> tags. 
+These two tags are launched with the release of HTML 5 and support a numerous range of attributes such as height, width, and more that offers developers to leverage the customization of HTML documents. 
+
+3. Canvas Elements
+
+Canvas Elements is a top-notch feature that has made the tedious task of handling graphics easier for developers. With the help of Canvas elements, you can easily draw graphics using JavaScript. It is optimum for creating simple animations and drawing photo compositions. 
+To initialize the Canvas element <canvas> tag is used with only two specific attributes, width and height. Once, the element is initialized, it is then taken care of with the help of JavaScript to draw shapes, lines, images, and more.
+
+4. Geolocation API
+
+The Geolocation API is an HTML feature that is used to access the geographical position of a user, however, it is not accessed unless the user approves of it. If you’re wondering where this feature is useful, these come in handy while creating apps like taxi apps, food order tracking apps, fitness tracking apps, and more. 
+The location is achieved in a way that a user sends their longitude and latitude and this data is sent to the backend server, after which we access that data to create all these fancy applications. 
+
+5. Local Storage 
+
+It is a modern feature of HTML and several browsers that typically store data in the user’s browsers and can access them with the help of JavaScript APIs. This feature is useful for creating offline applications where data is need to be stored locally. 
+Moreover, using this feature you can reduce the transactions between the application and the backend server, creating a fast application. However, there are some limitations, such as there is limited storage, and you can not access more storage than that. 
+
+6. Responsive Images
+
+Earlier to create responsive images on the web, you have to rely upon several lines of CSS and sometimes JavaScript, however, HTML 5 makes the process handy by including srcset attribute to specify multiple versions of an image at different screen resolutions. 
+
+7. Web Workers
+
+When you are performing several demanding tasks at once, the browser gets sluggish and responds slowly. Because of this, web workers were added to HTML 5 to allow scripts to operate in the background without interfering with the UI thread. 
+
+This may be used to execute demanding operations like multimedia processing in the background. To further demonstrate the usage of Web Workers, we shall create a simple counter app that starts the counter when you click ‘start’ and stop the counting when you click ‘stop’. 
+
+8. Drag and Drop API
+
+Drag and drop is among the most unique features of HTML5 that allow you to grab any element in the DOM and drop it to a different location. To create an element able to drag and drop, set the attribute “draggable” on the tag and put its value to true. Let’s understand this process using a practical coding example.
+
+8. Drag and Drop API
+
+Drag and drop is among the most unique features of HTML5 that allow you to grab any element in the DOM and drop it to a different location. To create an element able to drag and drop, set the attribute “draggable” on the tag and put its value to true. Let’s understand this process using a practical coding example.
+
+10. Web Sockets
+
+In the previous versions of HTML, when a client sends a request to the backend server, the server then responds afterward. However, in HTML 5 we can establish a bidirectional live communication between the server and the client (a web browser) to reduce the latency in the responses. 
+It has its usage in large-scale applications due to its capability of handling large amounts of connections simultaneously between the server and the client such as online gaming applications, live trading, and other live low-latency applications. 
+
+11. Micro Data 
+
+Micro Data in simpler words is a further deeper level to provide semantics to your webpage. This feature is used to structure data in HTML documents by embedding your own customized elements. 
+
+12. Cross Document Messaging
+
+In general, web browsers don’t let web pages from different domains influence each other, this is done for several security reasons, however, even if the web pages don’t intend to intrigue the privacy or harm the other web page. There are several scenarios, in which you want to access cross-document communication to make your web page more interactive with less effort. 
+
+2.What are the HTML Entities? List out of 5 commonly used HTML entities.
+
+ans:- HTML Entities
+HTML character entities are used as a replacement of reserved characters in HTML. You can also replace characters that are not present on your keyboard by entities.
+
+These characters are replaced because some characters are reserved in HTML. HTML entities provide a wide range of characters which can allow you to add icons, geometric shapes, mathematical operators, etc.
+
+For example: if you use less than (<) or greater than (>) symbols in your text, the browser can mix them with tags that's why character entities are used in HTML to display reserved characters.
+  5 commonly used HTML entities:-
+        1)&lt; - Less than
+        2)&gt; - Greater than
+        3)&copy; - Copy right
+        4)&quot; - Double quatation mark
+        5)&reg; - Registered trademark
+
+3.Define the accessibility in the context of web development.Disscuss why it's essential to create accessible websites and how it benefits different user groups
+
+ans:- Accessibility is the practice of making your websites usable by as many people as possible. We traditionally think of this as being about people with disabilities, but the practice of making sites accessible also benefits other groups such as those using mobile devices, or those with slow network connections.
+You might also think of accessibility as treating everyone the same, and giving them equal opportunities, no matter what their ability or circumstances. Just as it is wrong to exclude someone from a physical building because they are in a wheelchair (modern public buildings generally have wheelchair ramps or elevators), it is also not right to exclude someone from a website because they have a visual impairment. We are all different, but we are all human, and therefore have the same human rights.
+Accessibility is the right thing to do. Providing accessible sites is part of the law in some countries, which can open up some significant markets that otherwise would not be able to use your services or buy your products.
+
+There are at least four primary reasons why accessibility is important and should matter to us:
+
+IT’S INCLUSIVE AND PROVIDES EQUAL ACCESS TO EVERYONE, ESPECIALLY PEOPLE WITH DISABILITIES.
+In 2011, the National Center for Education Statistics(opens in new window) found that 11% of undergraduate students reported having a disability, and recent data(opens in new window) found that almost 13% of the U.S. population has a disability. Potentially excluding such a substantial percentage of the population would be in contrast to UNCG’s mission to be “an inclusive, collaborative, and responsive institution making a difference in the lives of students and the communities it serves.”
+
+IT PROMOTES USABILITY.
+When we consider accessibility in our online content design, it also enhances usability, and often results in a more intuitive user experience. Online content that meets accessibility requirements is likely to be more user-friendly for everyone. People without disabilities can benefit from accessible design, particularly when they are in limiting situations such as:
+Reading captions for a video when in noisy or quiet environments
+Adjusting screen brightness in a dark or bright room
+Reading a transcript of a presentation to reinforce the information learned
+Using the keyboard to navigate a website when the mouse is not working
+IT’S THE RIGHT THING TO DO.
+Accessibility allows people with disabilities to actively participate in our society. In addition to being leaders of innovation and progress, institutions of higher education are also regarded as having a certain level of responsibility to society. Accessibility supports this notion as well as UNCG’s mission.
+
+IT’S THE LAW.
+There are many federal and state laws that require higher ed institutions to make their electronic and web content accessible to people with disabilities. Violating these laws can result in a loss of funding (including federal financial aid funds), as some universities have faced legal action for web accessibility non-compliance. The University of Washington has developed thorough summaries of several higher education resolution agreements and lawsuits(opens in new window) involving web accessibility.  More information about these laws can be found on the Laws & Guidelines related to Accessibility page(opens in new window).
+IT’S BETTER FOR SOCIETY AND EVERYONE.
+Accessible online content means that everyone is included—no one is left out of receiving your message. Inclusive messages means that we can all participate and receive the same information. It benefits society as a whole by allowing more people to be actively involved, contributing their ideas and point of views.
+
+IT MAKES SENSE FINANCIALLY.
+Accessible websites and online content are more likely to attract a wider audience of potential users. For UNCG this means expanding its reach into a variety of areas, which could lead to an increase in website visitors, enrollment in courses, use of services, and more.
+Also, accessible websites have higher search engine optimization. This means that accessible websites are ranked higher and will be closer to the top of a Google, Yahoo, or other search engine. It is also less expensive to build an accessible, standards-compliant website at the start, rather than going back and redesigning it up from the ground up.
+IT’S BETTER FOR SOCIETY AND EVERYONE.
+Accessible online content means that everyone is included—no one is left out of receiving your message. Inclusive messages means that we can all participate and receive the same information. It benefits society as a whole by allowing more people to be actively involved, contributing their ideas and point of views.
+
+4.List any 3 ways that help us in improving the accessibility of HTML.
+ans:- 1.Use headings properly.
+Use headings and subheadings to form an outline of the page. Do not skip heading levels. They help non-visual users (including search engines) to understand how the page is organized, and make it easy for screen reader users to navigate. For more information, see the UW Accessible Technology page Providing Structure in Web Pages and Documents.
+         2.Add labels to form fields.
+Use the HTML label element so screen reader users will know which labels or prompts are associated with which form fields. For more information, see the UW Accessible Technology page Creating Accessible Forms.
+         3.Caption video.
+Captions provide benefits to all users. There are many free, easy-to-use tools available that support the process of transcribing and captioning videos. For more information, see the UW Accessible Technology page Creating Accessible Videos.
+
+
+
+
+
